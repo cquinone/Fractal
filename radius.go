@@ -16,7 +16,7 @@ type Vector struct {
 	c uint8
 }
 
-//code to draw ortho shape, then copy and append to itseld in random direction, again and again
+//code to draw ortho shape, then copy and append to itself in random direction, again and again
 func main() {
 	rand.Seed(time.Now().UnixNano())
 	height, width := 20000, 20000
